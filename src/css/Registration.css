@@ -1,0 +1,104 @@
+.registercard {
+    color: rgb(178, 76, 187);
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 28%;
+    height: 60%;
+    border-radius: 20%;
+}
+
+.userregister {
+    padding: 3%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 40%;
+    margin-left: 12%;
+}
+
+.passwordline {
+    display: contents;
+    font-weight: 300;
+    font-size: small;
+}
+
+.middle {
+    display: flex;
+    align-content: center;
+    margin-left: 35%;
+    border-radius: 30%;
+}
+
+.userfullName {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.useremail1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-bottom: 1%;
+}
+
+.phonenumber {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+.userpassword {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+.userbutton {
+    display: flex;
+    justify-content: space-between;
+    /* color: #A03037;
+ */
+}
+
+div p {
+    align-items: center;
+}
+
+IconButton {
+    margin-left: 40%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-color: #A03037;
+}
+
+@media only screen and (max-width: 600px) {
+    .name {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 3%;
+    }
+    .useremail1 {
+        padding: 3%;
+    }
+    .userbutton {
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
